@@ -1,0 +1,82 @@
+# DECOMPILED AND UPLOADED BY IMTHESCATMAN
+name: DisdFreedom
+main: net.ultimatemayhem.disdfreedom.DisdFreedom
+version: 2.4
+authors: [disaster839]
+description: Plugin for the Total Freedom server.
+commands:
+  bury:
+    description: SuperAdmin command - Send a player down into the null void.
+    usage: /<command> [player]
+  gt:
+    description: SuperAdmin command - Super slap!
+    usage: /<command> [player]
+  slam:
+    description: SuperAdmin command - Slam a player down into the ground.
+    usage: /<command> [player]
+  pit:
+    description: SuperAdmin command - Dig a pit for someone down to the void!
+    usage: /<command> [player]
+  jumppads:
+    description: SuperAdmin command - Manage Jump Pads.
+    usage: /<command> <set [height] | advanced | info>
+  ntp:
+    description: SuperAdmin command - Teleport to a player with a nick.
+    usage: /<command> [player]
+  invis:
+    description: SuperAdmin command - View all invisible players on the server.
+    usage: /<command | command smiteall>
+  disdfreedom:
+    description: Info about DisdFreedom.
+    usage: /<command>
+  nope:
+    description: SuperAdmin command - Explosively ban a player.
+    usage: /<command> [player]
+  machat:
+    description: SuperAdmin command - Manipulate someone's chat.
+    usage: /<command> [player] [text]
+  adminworld:
+    description: SuperAdmin command - Visit the admin-only world.
+    usage: /<command | setspawn | unload | list>
+  superpowers:
+    description: SuperAdmin command - Manage super powers.
+    usage: /<command> <on | off | ride [player]>
+  dtoggle:
+    description: SuperAdmin command - Enable / Disable DisguiseCraft
+    usage: /<command>
+  clean:
+    description: SuperAdmin command - Clear all entities, undisguise all, clear all potions, and clear all nicks.
+    usage: /<command>
+  noob:
+    description: SuperAdmin command - Tempban someone and tell them to read totalfreedom.me.
+    usage: /<command> [player]
+  limit:
+    description: SuperAdmin command - Set all players WorldEdit limit to 500.
+    usage: /<command>
+  strength:
+    description: SuperAdmin command - Give yourself some powerful strength!
+    usage: /<command> <on | off>
+  lockdown:
+    description: SuperAdmin command - Lockdown the server and prevent new players from joining.
+    usage: /<command> <on | off>
+  search:
+    description: View what block or item belongs to the specified ID.
+    usage: /<command> [blockid]
+  prem:
+    description: SuperAdmin command - Check to see if a player is premium or not.
+    usage: /<command> [player]
+  wh:
+    description: SuperAdmin command - View all the players who have the specified item.
+    usage: /<command> [itemname]
+  otp:
+    description: SuperAdmin command - Teleport to an offline player.
+    usage: /<command> [player]
+  spectate:
+    description: SuperAdmin command - Spectate a player.
+    usage: /<command> <[player] | stop>
+  tag:
+    description: Set a custom prefix.
+    usage: /<command> <[nick] | clearall>
+  warn:
+    description: SuperAdmin command - Warn a player for permban.
+    usage: /<command> <[player] | off>
